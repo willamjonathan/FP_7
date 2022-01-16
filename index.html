@@ -8,6 +8,7 @@
                 background-image: linear-gradient(to right,WHITE);
                 
             }
+                /* header or upper part of the page */
             .header{
                 position: absolute;
                 top:0%;
@@ -17,6 +18,7 @@
                 background-color:#4A6572 ;
                 border-bottom: 3px solid black;
             }
+                /* the backward arrow which will redirect you to the page before */
             .header .fas{
                 position: relative;
                 left:5%;
@@ -28,6 +30,7 @@
                 left:3%;
                 bottom:30%;
             }
+                /* title of the page */
             .food{
                 font-family: 'Times New Roman', Times, serif;
                 font-size: 30px;
@@ -43,12 +46,14 @@
                 height:90%;
 
             }
+                /* food table image (made by myself by using excel) */
             .img1{
                 position: absolute;
                 top:15%;
                 width:80%;
                 left:10%;
             }
+                /* explanation box styling */
             .text{
                 position: absolute;
                 top:82%;
@@ -76,6 +81,7 @@
                 right:5%;
                 font-family:'Courier New', Courier, monospace;
             }
+                /* profile icon image */
             .footer .fas{
                 position: absolute;
                 bottom:25%;
@@ -91,24 +97,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class = "header">
-            <div class ='food'><c>FOOD</c></div>
+        <div class = "header"><!--- header or upper part of the page--->
+            <div class ='food'><c>FOOD</c></div><!--- the title of the page --->
+            <!--- the backward arrow of the page --->
             <div class ='back'><a href="https://willamjonathan.github.io/FP_6a/"style="color:black;text-decoration:none;">
                     <i class="fas fa-caret-left fa-2x"></i> </a>
             </div>    
         </div>
-        <div class='middle'>
-            <div class='img1'>
+        <div class='middle'><!--- content of the page --->
+            <div class='img1'><!--- the food table picture --->
                 <img src='https://raw.githubusercontent.com/willamjonathan/hello-github-actions/main/forfp/FOOD%20CAL.PNG' width='100%'height='100%'>
             </div>
-            <div class='text'>
+            <div class='text'><!--- the explanation box --->
                 <a style="font-weight: bold;font-size: 30px;">EXPLANATION</a>
                 <p>The table above shows the type of food over a hundred grams to its calories.</p>
             </div>
         </div>
-        <div class ="footer">
+        <div class ="footer"><!--- the footer part of the food page --->
             
-            <a href="https://willamjonathan.github.io/FP_11/"> <i class="fas fa-user-circle fa-3x"></i></a>
+            <a href="https://willamjonathan.github.io/FP_11/"> <i class="fas fa-user-circle fa-3x"></i></a> <!---the profile picture icon --->
             <div class ="moto"><b>YOUR HEALTHY SOLUTION</b></div>
         </div>
     </body>
